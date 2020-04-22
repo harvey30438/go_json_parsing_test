@@ -1,0 +1,58 @@
+[
+  {
+    "client_id": 1,
+    "sub": [
+      {
+        "type": "power",
+        "topic": [
+          "group1/sensor_data/power1",
+          "group1/sensor_data/power2"
+        ]
+      },
+      {
+        "type": "status",
+        "topic": [
+          "group1/system/status/module1",
+          "group1/system/status/module2"
+        ]
+      }
+    ],
+        "pub": [
+          {
+        "type": "power",
+        "topic": [
+          "group1/sensor_data/power_control1",
+          "group1/sensor_data/power_control2"
+        ]
+      }
+        ]
+  },
+  {
+    "client_id": 2,
+    "sub": [
+      {
+        "type": "power",
+        "topic": [
+          "group2/sensor_data/power1",
+          "group2/sensor_data/power2"
+        ]
+      },
+      {
+        "type": "status",
+        "topic": [
+          "group2/system/status/module1",
+          "group2/system/status/module2"
+        ]
+      }
+    ],
+        "pub": [
+          {
+        "type": "power",
+        "topic": [
+          "group2/sensor_data/power_control1",
+          "group2/sensor_data/power_control2"
+        ]
+      }
+        ]
+  }
+]
